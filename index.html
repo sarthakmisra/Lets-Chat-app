@@ -7,22 +7,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aplicacion a chat</title>
+    <link rel="stylesheet" href="kwitter.css">
+    <title>Chat login</title>
 </head>
 <body background="bg.png">
     <center>
 <div style="background-color: white; width:600px; border-radius: 20%;">
     <h1 style="color:tomato;">Kwitter</h1>
-<input type="text" class="form-control" placeholder="Email Address">
+<input type="text" class="form-control" placeholder="Email Address" id="input_ea">
 <br>
 <br>
-<input type="text" class="form-control" placeholder="Password">
+<p id="tutu" style="color:red;"></p>
 <br>
-<br>
-<button type="button"  class="btn btn-success">Login</button>
+<button type="button" onclick="navigate()"  class="btn btn-success">Login</button>
 <br>
 <br>
 </div>  
-</center>  
+</center> 
+<script src="kwitter.js" ></script>
 </body>
 </html>
